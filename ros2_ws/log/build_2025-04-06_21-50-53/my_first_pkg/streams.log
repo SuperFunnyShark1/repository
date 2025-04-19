@@ -1,0 +1,16 @@
+[0.034s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[0.097s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.348s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.348s]   ament_python_install_package() the Python package folder
+[0.348s]   '/home/superfunnyshark/ros2_ws/src/my_first_pkg/my_first_pkg' doesn't
+[0.357s]   contain an '__init__.py' file
+[0.358s] Call Stack (most recent call first):
+[0.358s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.358s]   CMakeLists.txt:22 (ament_python_install_package)
+[0.358s] 
+[0.358s] [0m
+[0.358s] -- Configuring incomplete, errors occurred!
+[0.358s] See also "/home/superfunnyshark/ros2_ws/build/my_first_pkg/CMakeFiles/CMakeOutput.log".
+[0.364s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.367s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8

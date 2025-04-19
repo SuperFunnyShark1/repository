@@ -1,0 +1,46 @@
+[0.159s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/superfunnyshark/ros2_ws/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/ros2_ws/install/my_first_pkg
+[2.019s] -- The C compiler identification is GNU 11.4.0
+[2.544s] -- The CXX compiler identification is GNU 11.4.0
+[2.868s] -- Detecting C compiler ABI info
+[3.245s] -- Detecting C compiler ABI info - done
+[3.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.303s] -- Detecting C compile features
+[3.329s] -- Detecting C compile features - done
+[3.420s] -- Detecting CXX compiler ABI info
+[3.760s] -- Detecting CXX compiler ABI info - done
+[3.783s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.784s] -- Detecting CXX compile features
+[3.795s] -- Detecting CXX compile features - done
+[3.861s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.535s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.155s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.955s] -- Added test 'lint_cmake' to check CMake code style
+[6.972s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.010s] -- Added test 'xmllint' to check XML markup files
+[7.100s] -- Configuring done
+[7.169s] -- Generating done
+[7.264s] -- Build files have been written to: /home/superfunnyshark/ros2_ws/build/my_first_pkg
+[7.277s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/superfunnyshark/ros2_ws/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/ros2_ws/install/my_first_pkg
+[7.282s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[7.413s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[7.452s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg
+[7.483s] -- Install configuration: ""
+[7.484s] -- Execute custom install script
+[7.485s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[7.535s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[7.593s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[7.640s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[7.679s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[7.714s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[7.750s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[7.789s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[7.831s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[7.860s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[7.896s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[7.934s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[8.000s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[8.050s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[8.084s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[8.127s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg

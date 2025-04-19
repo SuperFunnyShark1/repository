@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250407-0320-Experimental"
+	Name="DESKTOP-MGO51IA"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="DESKTOP-MGO51IA"
+	OSRelease="4.4.0-19041-Microsoft"
+	OSVersion="#4355-Microsoft Thu Apr 12 17:37:00 PST 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="140"
+	ProcessorCacheSize="1280"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="49152"
+	TotalPhysicalMemory="16075"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2803"
+	>
+	<Testing>
+		<StartDateTime>Apr 07 00:02 -04</StartDateTime>
+		<StartTestTime>1743998565</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 07 00:02 -04</EndDateTime>
+		<EndTestTime>1743998565</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

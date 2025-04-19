@@ -1,0 +1,21 @@
+[0.047s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[0.164s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[0.209s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg
+[0.227s] -- Install configuration: ""
+[0.228s] -- Execute custom install script
+[0.228s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[0.229s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[0.229s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[0.230s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[0.230s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[0.230s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[0.230s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[0.231s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[0.231s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[0.231s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[0.231s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[0.264s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[0.264s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[0.264s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[0.265s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[0.270s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg

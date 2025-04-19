@@ -1,0 +1,11 @@
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/uninstall.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/my_first_pkg_uninstall.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/ament_cmake_python_copy_my_first_pkg.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/ament_cmake_python_build_my_first_pkg_egg.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/test.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/edit_cache.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/rebuild_cache.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/list_install_components.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/install.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/install/local.dir
+/home/superfunnyshark/ros2_ws/src/my_first_pkg/build/CMakeFiles/install/strip.dir

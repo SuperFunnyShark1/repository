@@ -1,0 +1,42 @@
+[0.031s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[0.193s] Built target ament_cmake_python_symlink_my_first_pkg
+[0.574s] running egg_info
+[0.574s] writing my_first_pkg.egg-info/PKG-INFO
+[0.574s] writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+[0.575s] writing top-level names to my_first_pkg.egg-info/top_level.txt
+[0.578s] reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[0.578s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[0.612s] Built target ament_cmake_python_build_my_first_pkg_egg
+[0.634s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/ros2_ws/build/my_first_pkg -- -j8 -l8
+[0.657s] Invoking command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg
+[0.670s] -- Install configuration: ""
+[0.671s] -- Execute custom install script
+[0.671s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/pythonpath.sh
+[0.671s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/pythonpath.dsv
+[0.671s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[0.672s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.672s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.672s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[0.673s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg/__init__.py
+[0.673s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_first_node_1.py
+[0.673s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_function.py
+[0.674s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/lib/my_first_pkg/talker.py
+[0.674s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/lib/my_first_pkg/listener.py
+[0.675s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/launch_file.xml
+[0.675s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[0.675s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[0.676s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[0.676s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[0.676s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[0.677s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[0.677s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[0.678s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[0.678s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[0.678s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[0.678s] -- Symlinking: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[0.702s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[0.703s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[0.703s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[0.703s] -- Up-to-date symlink: /home/superfunnyshark/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[0.743s] Listing '/home/superfunnyshark/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg'...
+[0.750s] Invoked command in '/home/superfunnyshark/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/ros2_ws/build/my_first_pkg
