@@ -1,0 +1,9 @@
+[0.037s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/src/build/my_first_pkg -- -j8 -l8
+[0.234s] Built target ament_cmake_python_symlink_my_first_pkg
+[0.625s] running egg_info
+[0.625s] writing my_first_pkg.egg-info/PKG-INFO
+[0.626s] writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+[0.626s] writing top-level names to my_first_pkg.egg-info/top_level.txt
+[0.629s] reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[0.630s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[0.666s] Built target ament_cmake_python_build_my_first_pkg_egg

@@ -1,0 +1,1 @@
+/home/superfunnyshark/repository/ros2_ws/src/build/my_first_pkg/ament_cmake_python/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt

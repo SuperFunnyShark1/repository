@@ -1,0 +1,40 @@
+[0.029s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg -- -j8 -l8
+[0.231s] Built target ament_cmake_python_symlink_test_pkg
+[0.662s] running egg_info
+[0.662s] writing test_pkg.egg-info/PKG-INFO
+[0.663s] writing dependency_links to test_pkg.egg-info/dependency_links.txt
+[0.663s] writing top-level names to test_pkg.egg-info/top_level.txt
+[0.667s] reading manifest file 'test_pkg.egg-info/SOURCES.txt'
+[0.668s] writing manifest file 'test_pkg.egg-info/SOURCES.txt'
+[0.713s] Built target ament_cmake_python_build_test_pkg_egg
+[0.768s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg -- -j8 -l8
+[0.772s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg
+[0.790s] -- Install configuration: ""
+[0.790s] -- Execute custom install script
+[0.791s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/pythonpath.sh
+[0.792s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/pythonpath.dsv
+[0.792s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[0.793s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.793s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.793s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[0.794s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg/__init__.py
+[0.795s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/lib/test_pkg/talker.py
+[0.824s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/lib/test_pkg/listener.py
+[0.854s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/package_run_dependencies/test_pkg
+[0.884s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/parent_prefix_path/test_pkg
+[0.916s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/ament_prefix_path.sh
+[0.944s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/ament_prefix_path.dsv
+[0.971s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/path.sh
+[0.996s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/path.dsv
+[1.019s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/local_setup.bash
+[1.043s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/local_setup.sh
+[1.066s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/local_setup.zsh
+[1.093s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/local_setup.dsv
+[1.116s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/package.dsv
+[1.142s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
+[1.167s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/cmake/test_pkgConfig.cmake
+[1.190s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/cmake/test_pkgConfig-version.cmake
+[1.214s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/package.xml
+[1.284s] Listing '/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg'...
+[1.285s] Compiling '/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg/__init__.py'...
+[1.293s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg

@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg
+[0.055s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.354s] Error parsing '/home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml':
+[0.407s] Traceback (most recent call last):
+[0.408s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.417s]     main()
+[0.418s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.418s]     raise e
+[0.418s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.418s]     package = parse_package_string(
+[0.418s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.418s]     pkg.validate(warnings=warnings)
+[0.418s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.418s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.418s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml':
+[0.418s] Invalid email "maximiliano_ruz@uc.cl git config --global user.email maximiliano_ruz@uc.cl    clear        asdasd" for person "superfunnyshark"
+[0.420s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.421s]   execute_process(/usr/bin/python3
+[0.421s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.421s]   /home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml
+[0.421s]   /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg/ament_cmake_core/package.cmake)
+[0.421s]   returned error code 1
+[0.421s] Call Stack (most recent call first):
+[0.421s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.421s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.421s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.421s] 
+[0.422s] [0m
+[0.422s] -- Configuring incomplete, errors occurred!
+[0.422s] See also "/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg/CMakeFiles/CMakeOutput.log".
+[0.441s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg' returned '1': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg

@@ -1,0 +1,2 @@
+Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg
+Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg' returned '1': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg

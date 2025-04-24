@@ -1,0 +1,1 @@
+/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg/ament_cmake_environment_hooks/pythonpath.sh
