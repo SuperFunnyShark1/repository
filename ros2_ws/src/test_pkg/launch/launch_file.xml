@@ -1,0 +1,15 @@
+<launch>
+  <!-- Node for talker.py -->
+  <node
+    pkg="test_pkg"
+    exec="talker.py"
+    name="talker"
+    />
+
+  <!-- Node for listener.py -->
+  <node
+    pkg="test_pkg"
+    exec="listener.py"
+    name="listener"
+    />
+</launch>

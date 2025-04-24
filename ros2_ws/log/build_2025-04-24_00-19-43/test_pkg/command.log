@@ -1,0 +1,1 @@
+Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/test_pkg -- -j8 -l8
