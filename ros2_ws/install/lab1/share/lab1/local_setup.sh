@@ -1,0 +1,1 @@
+/home/superfunnyshark/repository/ros2_ws/build/lab1/ament_cmake_environment_hooks/local_setup.sh

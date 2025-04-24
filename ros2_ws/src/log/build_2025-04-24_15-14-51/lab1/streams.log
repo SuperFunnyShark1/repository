@@ -1,0 +1,38 @@
+[0.046s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/src/build/lab1 -- -j8 -l8
+[0.227s] Built target ament_cmake_python_symlink_lab1
+[0.622s] running egg_info
+[0.623s] writing lab1.egg-info/PKG-INFO
+[0.624s] writing dependency_links to lab1.egg-info/dependency_links.txt
+[0.624s] writing top-level names to lab1.egg-info/top_level.txt
+[0.628s] reading manifest file 'lab1.egg-info/SOURCES.txt'
+[0.628s] writing manifest file 'lab1.egg-info/SOURCES.txt'
+[0.676s] Built target ament_cmake_python_build_lab1_egg
+[0.701s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/src/build/lab1 -- -j8 -l8
+[0.726s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/src/build/lab1
+[0.746s] -- Install configuration: ""
+[0.746s] -- Execute custom install script
+[0.746s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/pythonpath.sh
+[0.747s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/pythonpath.dsv
+[0.748s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/PKG-INFO
+[0.748s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.748s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.749s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/top_level.txt
+[0.749s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1/__init__.py
+[0.750s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/lib/lab1/ros2_move_in_circles.py
+[0.750s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[0.751s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[0.751s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[0.752s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[0.752s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/path.sh
+[0.754s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/environment/path.dsv
+[0.754s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/local_setup.bash
+[0.754s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/local_setup.sh
+[0.754s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/local_setup.zsh
+[0.756s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/local_setup.dsv
+[0.756s] -- Symlinking: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/package.dsv
+[0.790s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/ament_index/resource_index/packages/lab1
+[0.790s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/cmake/lab1Config.cmake
+[0.791s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[0.791s] -- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/src/install/lab1/share/lab1/package.xml
+[0.841s] Listing '/home/superfunnyshark/repository/ros2_ws/src/install/lab1/local/lib/python3.10/dist-packages/lab1'...
+[0.847s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/src/build/lab1

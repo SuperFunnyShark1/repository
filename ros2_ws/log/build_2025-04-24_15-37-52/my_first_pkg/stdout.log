@@ -1,0 +1,38 @@
+Built target ament_cmake_python_symlink_my_first_pkg
+running egg_info
+writing my_first_pkg.egg-info/PKG-INFO
+writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+writing top-level names to my_first_pkg.egg-info/top_level.txt
+reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_my_first_pkg_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/pythonpath.sh
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg/__init__.py
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_first_node_1.py
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_function.py
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/my_first_pkg/talker.py
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/my_first_pkg/listener.py
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/launch_file.xml
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+-- Symlinking: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+Listing '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/local/lib/python3.10/dist-packages/my_first_pkg'...
