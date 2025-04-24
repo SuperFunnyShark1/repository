@@ -21,7 +21,7 @@ class Obstacle_detector(Node):
 
         self.image_raw_subscription = self.create_subscription(
             Image,
-            '/camera/rgb/image_raw',
+            '/camera/depth/image_raw',
             self.image_callback,
             10
         )
@@ -32,11 +32,10 @@ class Obstacle_detector(Node):
             10
         )
         
-        self.bridge = CvBridge()
 
         
         
-                
+
         
         
 
@@ -50,10 +49,6 @@ class Obstacle_detector(Node):
         print("Image width: ", msg.width)
     
 
-        cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
-        # Display the image
-        cv2.imshow("Camera Image", cv_image)
-        cv2.waitKey(1)
 
 
 
