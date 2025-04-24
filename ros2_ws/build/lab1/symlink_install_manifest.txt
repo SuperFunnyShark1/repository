@@ -6,6 +6,7 @@
 /home/superfunnyshark/repository/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1-0.0.0-py3.10.egg-info/top_level.txt
 /home/superfunnyshark/repository/ros2_ws/install/lab1/local/lib/python3.10/dist-packages/lab1/__init__.py
 /home/superfunnyshark/repository/ros2_ws/install/lab1/lib/lab1/ros2_move_in_circles.py
+/home/superfunnyshark/repository/ros2_ws/install/lab1/lib/lab1/obstacle_detector.py
 /home/superfunnyshark/repository/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
 /home/superfunnyshark/repository/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
 /home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh

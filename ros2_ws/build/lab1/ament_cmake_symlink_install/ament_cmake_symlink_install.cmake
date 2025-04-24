@@ -322,8 +322,8 @@ ament_cmake_symlink_install_directory("/home/superfunnyshark/repository/ros2_ws/
 # install(DIRECTORY "/home/superfunnyshark/repository/ros2_ws/src/lab1/lab1/" "DESTINATION" "local/lib/python3.10/dist-packages/lab1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/superfunnyshark/repository/ros2_ws/src/lab1" DIRECTORY "/home/superfunnyshark/repository/ros2_ws/src/lab1/lab1/" "DESTINATION" "local/lib/python3.10/dist-packages/lab1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "nodes/ros2_move_in_circles.py" "DESTINATION" "lib/lab1")
-ament_cmake_symlink_install_programs("/home/superfunnyshark/repository/ros2_ws/src/lab1" PROGRAMS "nodes/ros2_move_in_circles.py" "DESTINATION" "lib/lab1")
+# install(PROGRAMS "nodes/ros2_move_in_circles.py" "nodes/obstacle_detector.py" "DESTINATION" "lib/lab1")
+ament_cmake_symlink_install_programs("/home/superfunnyshark/repository/ros2_ws/src/lab1" PROGRAMS "nodes/ros2_move_in_circles.py" "nodes/obstacle_detector.py" "DESTINATION" "lib/lab1")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/lab1/")
 ament_cmake_symlink_install_directory("/home/superfunnyshark/repository/ros2_ws/src/lab1" DIRECTORY "launch" "DESTINATION" "share/lab1/")

@@ -24,7 +24,8 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS 
 
   nodes/ros2_move_in_circles.py
-
+  nodes/obstacle_detector.py
+    
 
   DESTINATION lib/${PROJECT_NAME})
 
