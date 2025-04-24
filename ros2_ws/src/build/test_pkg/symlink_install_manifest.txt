@@ -7,6 +7,7 @@
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/local/lib/python3.10/dist-packages/test_pkg/__init__.py
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/lib/test_pkg/talker.py
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/lib/test_pkg/listener.py
+/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg//launch/launch_file.xml
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/package_run_dependencies/test_pkg
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/parent_prefix_path/test_pkg
 /home/superfunnyshark/repository/ros2_ws/src/install/test_pkg/share/test_pkg/environment/ament_prefix_path.sh
