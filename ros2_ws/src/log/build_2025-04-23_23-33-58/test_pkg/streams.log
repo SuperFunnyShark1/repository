@@ -1,0 +1,45 @@
+[0.033s] Invoking command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg
+[0.874s] -- The C compiler identification is GNU 11.4.0
+[1.286s] -- The CXX compiler identification is GNU 11.4.0
+[1.516s] -- Detecting C compiler ABI info
+[1.831s] -- Detecting C compiler ABI info - done
+[1.841s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.860s] -- Detecting C compile features
+[1.871s] -- Detecting C compile features - done
+[1.918s] -- Detecting CXX compiler ABI info
+[2.200s] -- Detecting CXX compiler ABI info - done
+[2.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.212s] -- Detecting CXX compile features
+[2.224s] -- Detecting CXX compile features - done
+[2.258s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.739s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.643s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.759s] Error parsing '/home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml':
+[4.128s] Traceback (most recent call last):
+[4.128s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.129s]     main()
+[4.129s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.129s]     raise e
+[4.129s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.129s]     package = parse_package_string(
+[4.129s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[4.140s]     pkg.validate(warnings=warnings)
+[4.140s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[4.140s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[4.140s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml':
+[4.140s] Invalid email "maximiliano_ruz@uc.cl git config --global user.email maximiliano_ruz@uc.cl    clear        asdasd" for person "superfunnyshark"
+[4.155s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.155s]   execute_process(/usr/bin/python3
+[4.155s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.155s]   /home/superfunnyshark/repository/ros2_ws/src/test_pkg/package.xml
+[4.155s]   /home/superfunnyshark/repository/ros2_ws/src/build/test_pkg/ament_cmake_core/package.cmake)
+[4.155s]   returned error code 1
+[4.156s] Call Stack (most recent call first):
+[4.156s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.156s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.156s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[4.156s] 
+[4.156s] [0m
+[4.156s] -- Configuring incomplete, errors occurred!
+[4.156s] See also "/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg/CMakeFiles/CMakeOutput.log".
+[4.166s] Invoked command in '/home/superfunnyshark/repository/ros2_ws/src/build/test_pkg' returned '1': /usr/bin/cmake /home/superfunnyshark/repository/ros2_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/superfunnyshark/repository/ros2_ws/src/install/test_pkg
