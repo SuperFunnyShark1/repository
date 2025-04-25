@@ -1,0 +1,281 @@
+[1.193s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.194s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc5c7209de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc5c7322d10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc5c7322d10>>, mixin_verb=('build',))
+[4.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/superfunnyshark/repository/ros2_ws'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ignore', 'ignore_ament_install']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore_ament_install'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_pkg']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_pkg'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_meta']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_meta'
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ros']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ros'
+[4.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1' with type 'ros.ament_cmake' and name 'lab1'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ignore'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ignore_ament_install'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['colcon_pkg']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'colcon_pkg'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['colcon_meta']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'colcon_meta'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extensions ['ros']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_pkg) by extension 'ros'
+[4.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_pkg' with type 'ros.ament_cmake' and name 'my_first_pkg'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore_ament_install'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_pkg']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_pkg'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_meta']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_meta'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ros']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ros'
+[4.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pkg' with type 'ros.ament_cmake' and name 'test_pkg'
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/superfunnyshark/ros2_ws/install
+[4.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/superfunnyshark/repository/ros2_ws/install
+[4.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[4.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_args' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_first' from command line to 'False'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_force_configure' from command line to 'False'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'ament_cmake_args' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.769s] DEBUG:colcon.colcon_core.verb:Building package 'lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/superfunnyshark/repository/ros2_ws/build/lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/superfunnyshark/repository/ros2_ws/install/lab1', 'merge_install': False, 'path': '/home/superfunnyshark/repository/ros2_ws/src/lab1', 'symlink_install': True, 'test_result_base': None}
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_args' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target' from command line to 'None'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.769s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'my_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.770s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/superfunnyshark/repository/ros2_ws/build/my_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg', 'merge_install': False, 'path': '/home/superfunnyshark/repository/ros2_ws/src/my_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.770s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/superfunnyshark/repository/ros2_ws/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/superfunnyshark/repository/ros2_ws/install/test_pkg', 'merge_install': False, 'path': '/home/superfunnyshark/repository/ros2_ws/src/test_pkg', 'symlink_install': True, 'test_result_base': None}
+[4.770s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/superfunnyshark/repository/ros2_ws/src/lab1' with build type 'ament_cmake'
+[4.771s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/superfunnyshark/repository/ros2_ws/src/lab1'
+[4.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.860s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/superfunnyshark/repository/ros2_ws/src/my_first_pkg' with build type 'ament_cmake'
+[4.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/superfunnyshark/repository/ros2_ws/src/my_first_pkg'
+[4.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/superfunnyshark/repository/ros2_ws/src/test_pkg' with build type 'ament_cmake'
+[4.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/superfunnyshark/repository/ros2_ws/src/test_pkg'
+[4.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/lab1 -- -j8 -l8
+[4.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/my_first_pkg -- -j8 -l8
+[4.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/test_pkg -- -j8 -l8
+[6.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/test_pkg -- -j8 -l8
+[6.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/test_pkg
+[6.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/my_first_pkg -- -j8 -l8
+[6.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/my_first_pkg
+[6.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superfunnyshark/repository/ros2_ws/build/lab1 -- -j8 -l8
+[6.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/superfunnyshark/repository/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/lab1
+[6.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[6.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/test_pkg
+[6.536s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg' for CMake module files
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg' for CMake config files
+[6.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'cmake_prefix_path')
+[6.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.ps1'
+[6.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.dsv'
+[6.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.sh'
+[6.559s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/bin'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib/python3.10/site-packages'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/bin'
+[6.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.ps1'
+[6.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.dsv'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.sh'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.bash'
+[6.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.zsh'
+[6.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/colcon-core/packages/test_pkg)
+[6.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[6.609s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg' for CMake module files
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg' for CMake config files
+[6.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'cmake_prefix_path')
+[6.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.ps1'
+[6.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.dsv'
+[6.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.sh'
+[6.614s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib'
+[6.614s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/bin'
+[6.614s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[6.615s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/lib/python3.10/site-packages'
+[6.615s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/bin'
+[6.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.ps1'
+[6.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.dsv'
+[6.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.sh'
+[6.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.bash'
+[6.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/test_pkg/package.zsh'
+[6.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/test_pkg/share/colcon-core/packages/test_pkg)
+[6.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[6.622s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg' for CMake module files
+[6.624s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg' for CMake config files
+[6.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'cmake_prefix_path')
+[6.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.ps1'
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.dsv'
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.sh'
+[6.630s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib'
+[6.631s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/bin'
+[6.631s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[6.631s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages'
+[6.632s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/bin'
+[6.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[6.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/my_first_pkg
+[6.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[6.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.sh'
+[6.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.bash'
+[6.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[6.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[6.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_pkg)
+[6.639s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg' for CMake module files
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg' for CMake config files
+[6.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_pkg', 'cmake_prefix_path')
+[6.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.ps1'
+[6.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.dsv'
+[6.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/hook/cmake_prefix_path.sh'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/bin'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/pkgconfig/my_first_pkg.pc'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/bin'
+[6.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.ps1'
+[6.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv'
+[6.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.sh'
+[6.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.bash'
+[6.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.zsh'
+[6.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/my_first_pkg/share/colcon-core/packages/my_first_pkg)
+[6.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[6.654s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1' for CMake module files
+[6.657s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1' for CMake config files
+[6.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[6.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[6.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[6.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[6.663s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib'
+[6.663s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/bin'
+[6.664s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib/pkgconfig/lab1.pc'
+[6.664s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib/python3.10/site-packages'
+[6.664s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/bin'
+[6.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.ps1'
+[6.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/superfunnyshark/repository/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superfunnyshark/repository/ros2_ws/build/lab1
+[6.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.dsv'
+[6.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.sh'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.bash'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.zsh'
+[6.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/lab1/share/colcon-core/packages/lab1)
+[6.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[6.673s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1' for CMake module files
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1' for CMake config files
+[6.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[6.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[6.679s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/bin'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib/pkgconfig/lab1.pc'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/lib/python3.10/site-packages'
+[6.680s] Level 1:colcon.colcon_core.environment:checking '/home/superfunnyshark/repository/ros2_ws/install/lab1/bin'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.ps1'
+[6.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.dsv'
+[6.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.sh'
+[6.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.bash'
+[6.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/superfunnyshark/repository/ros2_ws/install/lab1/share/lab1/package.zsh'
+[6.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/superfunnyshark/repository/ros2_ws/install/lab1/share/colcon-core/packages/lab1)
+[6.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.688s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.835s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.835s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[6.835s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/superfunnyshark/repository/ros2_ws/install/local_setup.ps1'
+[6.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/superfunnyshark/repository/ros2_ws/install/_local_setup_util_ps1.py'
+[6.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/superfunnyshark/repository/ros2_ws/install/setup.ps1'
+[6.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/superfunnyshark/repository/ros2_ws/install/local_setup.sh'
+[6.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/superfunnyshark/repository/ros2_ws/install/_local_setup_util_sh.py'
+[6.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/superfunnyshark/repository/ros2_ws/install/setup.sh'
+[6.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/superfunnyshark/repository/ros2_ws/install/local_setup.bash'
+[6.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/superfunnyshark/repository/ros2_ws/install/setup.bash'
+[6.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/superfunnyshark/repository/ros2_ws/install/local_setup.zsh'
+[6.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/superfunnyshark/repository/ros2_ws/install/setup.zsh'
